@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #2B2922;
+
+}
+#navbar,#middle{
+    width: 80%;
+    margin: auto;
+}
+/* navbar */
+.logo img[alt="logo"]{
+    width: 60%;
+}
+#navbar nav{
+padding-top: 3%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+nav .lists{
+    min-width:50% ;
+    
+}
+nav .lists ul{
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+}
+nav .lists ul li{
+    color:#a9a9a9;
+padding-left: 5%;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 16px;
+    }
+    nav .lists ul li:hover{
+        color:#f5f5f5;
+
+    }
+    nav button{
+        height: 37px;
+    width: 100px;
+    border: 2px solid goldenrod ;
+    background: transparent;
+    color:goldenrod;
+border-radius: 10px;
+    }
+    /* middle */
+    #middle{
+        display: flex;
+        margin: 5.5% auto;
+    }
+    .middle{
+        width: 50%;
+    }
+    #middle h1{
+        color:#f5f5f5;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 55px;
+        padding-right: 10%;
+
+    }
+    #middle p{
+        color:#a9a9a9;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
+/* bottom */
+#bottom{
+    background: url('images/justice.jpg');
+    background-color: #a9a9a9;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
